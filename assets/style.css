@@ -1,0 +1,39 @@
+/*.comment {
+	position: relative;
+}*/
+
+.pct_lang_picker.top-right {
+	position: absolute;
+	top:      0;
+	right:    0
+}
+
+.pct_lang_picker.top-left {
+	position: absolute;
+	top:      0;
+	left:     0
+}
+
+.pct_lang_picker.bottom-right {
+	position: absolute;
+	bottom:   0;
+	right:    0
+}
+
+.pct_lang_picker.bottom-left {
+	position: absolute;
+	bottom:   0;
+	left:     0
+}
+.lang_picker_link{
+	list-style-type: none !important;
+}
+.lang_picker_link li{
+	display: inline;
+}
+.lang_picker_link li:after{
+	content:' | '
+}
+.lang_picker_link li:last-child:after{
+	content: '';
+}
